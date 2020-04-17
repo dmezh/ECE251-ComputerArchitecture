@@ -1,7 +1,7 @@
-README
-
 === ECE-251  Project 2 ===
 === Daniel Mezhiborsky ===
+Sorts a given list of up to 100 32-bit integers.
+
 
 Build:
 	$ make
