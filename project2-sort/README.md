@@ -4,15 +4,14 @@ Sorts a given list of up to 100 32-bit integers.
 
 ## Build:
 ```
-	$ make
+$ make
 ```
 ## Prerequisites:
-	ARMv7 cross toolchain
-	ARM machine or appropriate emulator/QEMU (note executable is statically linked)
-
+- ARMv7 cross toolchain
+- ARM machine or appropriate emulator/QEMU (note executable is statically linked)
 ## Usage:
 ```
-	$ ./sort.out [filename] [r or n] [s or u]
+$ ./sort.out [filename] [r or n] [s or u]
 ```
 r==reverse, n==normal (ascending) ||| s==signed, u==unsigned
 
@@ -20,7 +19,7 @@ r==reverse, n==normal (ascending) ||| s==signed, u==unsigned
 ## Using the fuzzer/tester
 sort.out should be in the same directory
 ```
-	$ ./test_random.py [iterations] [signed/unsigned] [normal/reverse]
+$ ./test_random.py [iterations] [signed/unsigned] [normal/reverse]
 ```
 Example: 
 ```
