@@ -1,23 +1,23 @@
-#ECE-251  Project 2 - Sort
+# ECE-251  Project 2 - Sort
 Sorts a given list of up to 100 32-bit integers.
 
 
-##Build:
+## Build:
 ```
 	$ make
 ```
-##Prerequisites:
+## Prerequisites:
 	ARMv7 cross toolchain
 	ARM machine or appropriate emulator/QEMU (note executable is statically linked)
 
-##Usage:
+## Usage:
 ```
 	$ ./sort.out [filename] [r or n] [s or u]
 ```
 r==reverse, n==normal (ascending) ||| s==signed, u==unsigned
 
 
-##Using the fuzzer/tester
+## Using the fuzzer/tester
 sort.out should be in the same directory
 ```
 	$ ./test_random.py [iterations] [signed/unsigned] [normal/reverse]
