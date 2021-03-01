@@ -1,6 +1,6 @@
 # ECE251-ComputerArchitecture
 
-Projects and other files from ECE251 Computer Architecture at Cooper Union.
+Projects and other files from ECE251 Computer Architecture (Spring 2020) at Cooper Union.
 
 - Project 1: String concatenator
 - Project 2: Number sort
