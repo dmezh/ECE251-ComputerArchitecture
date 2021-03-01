@@ -1,0 +1,12 @@
+=== ECE-251  Project 1 ===
+=== Daniel Mezhiborsky ===
+
+Build:
+	$ make
+
+Prerequisites:
+	ARMv7 cross toolchain
+	ARM machine or appropriate emulator/QEMU (note executable is statically linked)
+
+Usage:
+	$ ./strings.out
